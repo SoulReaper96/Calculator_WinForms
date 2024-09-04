@@ -31,18 +31,18 @@ namespace Calculator
         private void InitializeComponent()
         {
             textBox1 = new TextBox();
-            N1 = new Button();
-            N2 = new Button();
-            N3 = new Button();
-            N4 = new Button();
-            N5 = new Button();
-            N6 = new Button();
-            N7 = new Button();
-            N8 = new Button();
-            N9 = new Button();
-            N0 = new Button();
-            N00 = new Button();
-            Dot = new Button();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            button0 = new Button();
+            button00 = new Button();
+            buttonDecimal = new Button();
             Addition = new Button();
             Equals = new Button();
             Subtraction = new Button();
@@ -64,149 +64,149 @@ namespace Calculator
             textBox1.Text = "0";
             textBox1.TextAlign = HorizontalAlignment.Right;
             // 
-            // N1
+            // button1
             // 
-            N1.BackColor = Color.Cyan;
-            N1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N1.Location = new Point(12, 243);
-            N1.Name = "N1";
-            N1.Size = new Size(60, 60);
-            N1.TabIndex = 1;
-            N1.Text = "1";
-            N1.UseVisualStyleBackColor = false;
-            N1.Click += N1_Click;
+            button1.BackColor = Color.Cyan;
+            button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(12, 243);
+            button1.Name = "button1";
+            button1.Size = new Size(60, 60);
+            button1.TabIndex = 1;
+            button1.Text = "1";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += ButtonDigits_Click;
             // 
-            // N2
+            // button2
             // 
-            N2.BackColor = Color.Cyan;
-            N2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N2.Location = new Point(78, 243);
-            N2.Name = "N2";
-            N2.Size = new Size(60, 60);
-            N2.TabIndex = 2;
-            N2.Text = "2";
-            N2.UseVisualStyleBackColor = false;
-            N2.Click += N2_Click;
+            button2.BackColor = Color.Cyan;
+            button2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(78, 243);
+            button2.Name = "button2";
+            button2.Size = new Size(60, 60);
+            button2.TabIndex = 2;
+            button2.Text = "2";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += ButtonDigits_Click;
             // 
-            // N3
+            // button3
             // 
-            N3.BackColor = Color.Cyan;
-            N3.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N3.Location = new Point(144, 243);
-            N3.Name = "N3";
-            N3.Size = new Size(60, 60);
-            N3.TabIndex = 3;
-            N3.Text = "3";
-            N3.UseVisualStyleBackColor = false;
-            N3.Click += N3_Click;
+            button3.BackColor = Color.Cyan;
+            button3.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(144, 243);
+            button3.Name = "button3";
+            button3.Size = new Size(60, 60);
+            button3.TabIndex = 3;
+            button3.Text = "3";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += ButtonDigits_Click;
             // 
-            // N4
+            // button4
             // 
-            N4.BackColor = Color.Cyan;
-            N4.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N4.Location = new Point(12, 177);
-            N4.Name = "N4";
-            N4.Size = new Size(60, 60);
-            N4.TabIndex = 4;
-            N4.Text = "4";
-            N4.UseVisualStyleBackColor = false;
-            N4.Click += N4_Click;
+            button4.BackColor = Color.Cyan;
+            button4.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.Location = new Point(12, 177);
+            button4.Name = "button4";
+            button4.Size = new Size(60, 60);
+            button4.TabIndex = 4;
+            button4.Text = "4";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += ButtonDigits_Click;
             // 
-            // N5
+            // button5
             // 
-            N5.BackColor = Color.Cyan;
-            N5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N5.Location = new Point(78, 177);
-            N5.Name = "N5";
-            N5.Size = new Size(60, 60);
-            N5.TabIndex = 5;
-            N5.Text = "5";
-            N5.UseVisualStyleBackColor = false;
-            N5.Click += N5_Click;
+            button5.BackColor = Color.Cyan;
+            button5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button5.Location = new Point(78, 177);
+            button5.Name = "button5";
+            button5.Size = new Size(60, 60);
+            button5.TabIndex = 5;
+            button5.Text = "5";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += ButtonDigits_Click;
             // 
-            // N6
+            // button6
             // 
-            N6.BackColor = Color.Cyan;
-            N6.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N6.Location = new Point(144, 177);
-            N6.Name = "N6";
-            N6.Size = new Size(60, 60);
-            N6.TabIndex = 6;
-            N6.Text = "6";
-            N6.UseVisualStyleBackColor = false;
-            N6.Click += N6_Click;
+            button6.BackColor = Color.Cyan;
+            button6.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button6.Location = new Point(144, 177);
+            button6.Name = "button6";
+            button6.Size = new Size(60, 60);
+            button6.TabIndex = 6;
+            button6.Text = "6";
+            button6.UseVisualStyleBackColor = false;
+            button6.Click += ButtonDigits_Click;
             // 
-            // N7
+            // button7
             // 
-            N7.BackColor = Color.Cyan;
-            N7.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N7.Location = new Point(12, 111);
-            N7.Name = "N7";
-            N7.Size = new Size(60, 60);
-            N7.TabIndex = 7;
-            N7.Text = "7";
-            N7.UseVisualStyleBackColor = false;
-            N7.Click += N7_Click;
+            button7.BackColor = Color.Cyan;
+            button7.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button7.Location = new Point(12, 111);
+            button7.Name = "button7";
+            button7.Size = new Size(60, 60);
+            button7.TabIndex = 7;
+            button7.Text = "7";
+            button7.UseVisualStyleBackColor = false;
+            button7.Click += ButtonDigits_Click;
             // 
-            // N8
+            // button8
             // 
-            N8.BackColor = Color.Cyan;
-            N8.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N8.Location = new Point(78, 111);
-            N8.Name = "N8";
-            N8.Size = new Size(60, 60);
-            N8.TabIndex = 8;
-            N8.Text = "8";
-            N8.UseVisualStyleBackColor = false;
-            N8.Click += N8_Click;
+            button8.BackColor = Color.Cyan;
+            button8.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button8.Location = new Point(78, 111);
+            button8.Name = "button8";
+            button8.Size = new Size(60, 60);
+            button8.TabIndex = 8;
+            button8.Text = "8";
+            button8.UseVisualStyleBackColor = false;
+            button8.Click += ButtonDigits_Click;
             // 
-            // N9
+            // button9
             // 
-            N9.BackColor = Color.Cyan;
-            N9.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N9.Location = new Point(144, 111);
-            N9.Name = "N9";
-            N9.Size = new Size(60, 60);
-            N9.TabIndex = 9;
-            N9.Text = "9";
-            N9.UseVisualStyleBackColor = false;
-            N9.Click += N9_Click;
+            button9.BackColor = Color.Cyan;
+            button9.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button9.Location = new Point(144, 111);
+            button9.Name = "button9";
+            button9.Size = new Size(60, 60);
+            button9.TabIndex = 9;
+            button9.Text = "9";
+            button9.UseVisualStyleBackColor = false;
+            button9.Click += ButtonDigits_Click;
             // 
-            // N0
+            // button0
             // 
-            N0.BackColor = Color.Cyan;
-            N0.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N0.Location = new Point(12, 309);
-            N0.Name = "N0";
-            N0.Size = new Size(60, 60);
-            N0.TabIndex = 10;
-            N0.Text = "0";
-            N0.UseVisualStyleBackColor = false;
-            N0.Click += N0_Click;
+            button0.BackColor = Color.Cyan;
+            button0.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button0.Location = new Point(12, 309);
+            button0.Name = "button0";
+            button0.Size = new Size(60, 60);
+            button0.TabIndex = 10;
+            button0.Text = "0";
+            button0.UseVisualStyleBackColor = false;
+            button0.Click += ButtonDigits_Click;
             // 
-            // N00
+            // button00
             // 
-            N00.BackColor = Color.Cyan;
-            N00.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            N00.Location = new Point(78, 309);
-            N00.Name = "N00";
-            N00.Size = new Size(60, 60);
-            N00.TabIndex = 11;
-            N00.Text = "00";
-            N00.UseVisualStyleBackColor = false;
-            N00.Click += N00_Click;
+            button00.BackColor = Color.Cyan;
+            button00.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button00.Location = new Point(78, 309);
+            button00.Name = "button00";
+            button00.Size = new Size(60, 60);
+            button00.TabIndex = 11;
+            button00.Text = "00";
+            button00.UseVisualStyleBackColor = false;
+            button00.Click += ButtonDigits_Click;
             // 
-            // Dot
+            // buttonDecimal
             // 
-            Dot.BackColor = Color.Cyan;
-            Dot.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Dot.Location = new Point(144, 309);
-            Dot.Name = "Dot";
-            Dot.Size = new Size(60, 60);
-            Dot.TabIndex = 12;
-            Dot.Text = ".";
-            Dot.UseVisualStyleBackColor = false;
-            Dot.Click += Dot_Click;
+            buttonDecimal.BackColor = Color.Cyan;
+            buttonDecimal.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonDecimal.Location = new Point(144, 309);
+            buttonDecimal.Name = "buttonDecimal";
+            buttonDecimal.Size = new Size(60, 60);
+            buttonDecimal.TabIndex = 12;
+            buttonDecimal.Text = ".";
+            buttonDecimal.UseVisualStyleBackColor = false;
+            buttonDecimal.Click += ButtonDigits_Click;
             // 
             // Addition
             // 
@@ -218,7 +218,7 @@ namespace Calculator
             Addition.TabIndex = 13;
             Addition.Text = "+";
             Addition.UseVisualStyleBackColor = false;
-            Addition.Click += Addition_Click;
+            Addition.Click += ButtonOperation_Click;
             // 
             // Equals
             // 
@@ -242,7 +242,7 @@ namespace Calculator
             Subtraction.TabIndex = 15;
             Subtraction.Text = "-";
             Subtraction.UseVisualStyleBackColor = false;
-            Subtraction.Click += Subtraction_Click;
+            Subtraction.Click += ButtonOperation_Click;
             // 
             // Multiplication
             // 
@@ -254,7 +254,7 @@ namespace Calculator
             Multiplication.TabIndex = 16;
             Multiplication.Text = "×";
             Multiplication.UseVisualStyleBackColor = false;
-            Multiplication.Click += Multiplication_Click;
+            Multiplication.Click += ButtonOperation_Click;
             // 
             // Division
             // 
@@ -266,7 +266,7 @@ namespace Calculator
             Division.TabIndex = 17;
             Division.Text = "÷";
             Division.UseVisualStyleBackColor = false;
-            Division.Click += Division_Click;
+            Division.Click += ButtonOperation_Click;
             // 
             // Clear
             // 
@@ -291,7 +291,7 @@ namespace Calculator
             Back.TabIndex = 19;
             Back.Text = "→";
             Back.UseVisualStyleBackColor = false;
-            Back.Click += this.Back_Click;
+            Back.Click += Back_Click;
             // 
             // ClearEntry
             // 
@@ -303,7 +303,7 @@ namespace Calculator
             ClearEntry.TabIndex = 20;
             ClearEntry.Text = "CE";
             ClearEntry.UseVisualStyleBackColor = false;
-            ClearEntry.Click += this.ClearEntry_Click;
+            ClearEntry.Click += ClearEntry_Click;
             // 
             // Calculator
             // 
@@ -319,18 +319,18 @@ namespace Calculator
             Controls.Add(Subtraction);
             Controls.Add(Equals);
             Controls.Add(Addition);
-            Controls.Add(Dot);
-            Controls.Add(N00);
-            Controls.Add(N0);
-            Controls.Add(N9);
-            Controls.Add(N8);
-            Controls.Add(N7);
-            Controls.Add(N6);
-            Controls.Add(N5);
-            Controls.Add(N4);
-            Controls.Add(N3);
-            Controls.Add(N2);
-            Controls.Add(N1);
+            Controls.Add(buttonDecimal);
+            Controls.Add(button00);
+            Controls.Add(button0);
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(textBox1);
             Font = new Font("Arial", 9F);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
@@ -345,18 +345,18 @@ namespace Calculator
         #endregion
 
         private TextBox textBox1;
-        private Button N1;
-        private Button N2;
-        private Button N3;
-        private Button N4;
-        private Button N5;
-        private Button N6;
-        private Button N7;
-        private Button N8;
-        private Button N9;
-        private Button N0;
-        private Button N00;
-        private Button Dot;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
+        private Button button0;
+        private Button button00;
+        private Button buttonDecimal;
         private Button Addition;
         private Button Equals;
         private Button Subtraction;

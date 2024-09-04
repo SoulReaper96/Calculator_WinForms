@@ -2,8 +2,10 @@ namespace Calculator
 {
     public partial class Calculator : Form
     {
-        double FirstNumber;
-        string Operation;
+        private double? FirstNumber;
+        private string? Operation;
+        private string? CurrentEntry = "0";
+        private string? TotalEntry = "0";
 
         public Calculator() => InitializeComponent();
 
@@ -168,12 +170,14 @@ namespace Calculator
         private void Clear_Click(object sender, EventArgs e)
         {
             textBox1.Text = "0";
+            CurrentEntry = "";
+            textBox1.Text = TotalEntry;
         }
 
         private void Equals_Click(object sender, EventArgs e)
         {
-            double SecondNumber;
-            double Result;
+            double? SecondNumber;
+            double? Result;
 
             SecondNumber = Convert.ToDouble(textBox1.Text);
 
@@ -211,5 +215,16 @@ namespace Calculator
             }
         }
 
+        private void Back_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void ClearEntry_Click(object sender, EventArgs e)
+        {
+            CurrentEntry = "";
+            TotalEntry = "";
+            textBox1.Text = "0";
+        }
     }
 }

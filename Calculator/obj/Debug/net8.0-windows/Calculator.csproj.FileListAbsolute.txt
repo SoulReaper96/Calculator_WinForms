@@ -30,3 +30,21 @@ G:\Studies\Calculator\Calculator\obj\Debug\net8.0-windows\refint\Calculator.dll
 G:\Studies\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.pdb
 G:\Studies\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.genruntimeconfig.cache
 G:\Studies\Calculator\Calculator\obj\Debug\net8.0-windows\ref\Calculator.dll
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\bin\Debug\net8.0-windows\Calculator.exe
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\bin\Debug\net8.0-windows\Calculator.deps.json
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\bin\Debug\net8.0-windows\Calculator.runtimeconfig.json
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\bin\Debug\net8.0-windows\Calculator.dll
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\bin\Debug\net8.0-windows\Calculator.pdb
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.Calculator.resources
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.csproj.GenerateResource.cache
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.AssemblyInfoInputs.cache
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.AssemblyInfo.cs
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.csproj.CoreCompileInputs.cache
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.sourcelink.json
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.dll
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\refint\Calculator.dll
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.pdb
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.genruntimeconfig.cache
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\ref\Calculator.dll
+G:\GitHub Repo Cloned\SoulReaper96\Calculator_WinForms\Calculator\obj\Debug\net8.0-windows\Calculator.Properties.Resources.resources
